@@ -1,0 +1,31 @@
+.navbar {
+    width: 100%;
+    margin-top: -100px;
+    background-color: #016f48;
+    padding: 0rem 2rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    font-size: 1.75rem;
+}
+
+.navbar-item p {
+    margin: 15px 0;
+    color: white;
+    font-weight: 600;
+}
+
+.navbar-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
